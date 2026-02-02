@@ -1,7 +1,9 @@
 @media (max-width:1700px) {
      nav.navbar ul.navbar-nav li.nav-item a.nav-link {
-        padding: 0 24px;
         font-size: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 16px;
     }
 
  
@@ -13,6 +15,7 @@
         width: 32px;
         height: 32px;
     }
+    
      .navbar-text button {
         padding: 16px 24px;
         font-size: 16px;
@@ -33,7 +36,7 @@
         font-size: 12px;
     }
     .banner button {
-        font-size: 15px;
+        font-size: 16px;
     }
     .banner button i {
         font-size: 24px;
@@ -87,7 +90,7 @@
 
 @media (max-width:1368px) {
     nav.navbar {
-        padding: 8px 0;
+        padding: 16px 0;
     }
      nav.navbar ul.navbar-nav li.nav-item a.nav-link {
         margin-right: 16px;
@@ -343,11 +346,12 @@ nav.navbar.scrolled {
 
 @media (max-width:767px) {
     div#navbarNav {
-        position: absolute;
+        position: relative;
         top:0;
         background:#121212;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 24x;
+        padding-right: 24x;
+        padding-top: 24px;
         transition: 0.3s ease-in-out;
     }
     nav.navbar a.navbar-brand {
@@ -435,7 +439,7 @@ font-size: 32px;
     }
     
     nav.navbar ul.navbar-nav li.nav-item a.nav-link {
-        padding: 32px 16px;
+        padding: 24px 16px;
         font-size: 16px;
         border-bottom: 1px solid rgb(255 255 255 / 20%);
     }
