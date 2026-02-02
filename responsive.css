@@ -1,0 +1,494 @@
+@media (max-width:1700px) {
+     nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+        padding: 0 24px;
+        font-size: 16px;
+    }
+
+ 
+    .social-icon a {
+        width: 32px;
+        height: 32px;
+    }
+   .social-icon a::before {
+        width: 32px;
+        height: 32px;
+    }
+     .navbar-text button {
+        padding: 16px 24px;
+        font-size: 16px;
+    }
+   
+     .banner {
+        padding: 200px 0 64px 0;
+    }
+    .banner img{
+        width: 70%;
+        margin-left: 152px;
+    }
+ 
+    .banner p, .skill p, .project p {
+        font-size: 15px;
+    }
+    .banner .taglin {
+        font-size: 12px;
+    }
+    .banner button {
+        font-size: 15px;
+    }
+    .banner button i {
+        font-size: 24px;
+    }
+    .project h2, .contact h2 {
+        font-size: 36px;
+    }
+    .project .nav.nav-pills .nav-link {
+        padding: 16px 0;
+        font-size: 14px;
+    }
+    .proj-txtx h4 {
+        font-size: 24px;
+    }
+    .proj-txtx span {
+        font-size: 14px;
+    }
+    .contact h2 {
+       font-size: 36px;
+       padding-bottom: 24px;
+    }
+    .contact form input, .contact form textarea {
+        border-radius: 14px;
+        padding: 16px 24px;
+        font-size: 15px;
+    }
+    .contact form input::placeholder, .contact form textarea::placeholder {
+        font-size: 14px;
+    }
+    .contact form button {
+        padding: 16px 40px;
+        font-size: 15px;
+        margin-top: 16px;
+    }
+    .contact img {
+        width: 100%; 
+      
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+    .footer img {
+        width: 15%;
+    }
+   
+}
+ .footer .social-icon a img {
+        margin: 0;
+    }
+
+@media (max-width:1368px) {
+    nav.navbar {
+        padding: 8px 0;
+    }
+     nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+        margin-right: 16px;
+        padding-bottom: 16px;
+        font-size: 14px;
+    }
+      nav.navbar a.navbar-brand {
+        width: 6%;
+        margin-bottom: 16px;
+    }
+    .banner {
+        padding: 176px 0 66px 0;
+    }
+ 
+    .skill p, .project p {
+        font-size: 14px;
+    }
+   .contact img {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+    .banner button {
+        margin-top: 42px;
+    }
+    
+    .books-slider {
+        width: 88%;
+    }
+    .books p {
+        margin: 16px 0 40px 0;
+    }
+    .proj-txtx h4 {
+        font-size: 24px;
+    }
+    .proj-txtx span {
+        font-size: 14px;
+    }
+  
+}
+ .footer .social-icon a img {
+        margin: 0;
+    }
+    nav.navbar.scrolled {
+        background-color: #121212;
+       
+    
+}
+
+@media (max-width:1199px) {
+    main .container {
+        max-width: 1075px;
+    }
+    .banner {
+        padding: 152px 0 52px 0;
+    }
+     nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+        margin-right: 16px;
+        padding-bottom: 4px;
+        font-size: 14px;
+    }
+    
+    .project p {
+        width: 65%;
+    }
+    .project .nav.nav-pills {
+        width: 75%;
+    }
+
+    .project h1 {
+
+    font-size: 36px;
+       
+}
+    .footer img {
+        width: 26%;
+    }
+    .contact img {
+        width: 60%;
+        padding-bottom: 24px;
+    }
+    .banner img {
+        width: 100%;
+        margin-left: auto;
+        display: block;
+    }
+     nav.navbar a.navbar-brand {
+        width: 8%;
+        margin-bottom: 16px;
+    }
+}
+nav.navbar.scrolled {
+    background-color: #121212;
+}
+ .footer .social-icon a img {
+        margin: 0;
+    }
+    .navbar-toggler{
+        padding-bottom: 32px;
+    }
+
+@media (max-width:1025px) {
+    main .container {
+        max-width: 960px;
+    }
+     
+    .banner h1 {
+        font-size: 32px;
+    }
+    
+    .project h1 {
+
+    font-size: 32px;
+       
+}
+    .banner button {
+        margin-top: 35px;
+    }
+  
+ 
+ 
+    .project {
+        margin-top:16px;
+    }
+    .project p {
+        width: 75%;
+    }
+    .project .nav.nav-pills {
+        width: 85%;
+    }
+    .contact {
+        padding-bottom:16px;
+        padding-top: 24px;
+    }
+     .contact img {
+        width: 100%;
+        padding-bottom: 16px;
+    }
+    .newsletter-bx {
+        margin-top: -100px;
+    }
+     nav.navbar a.navbar-brand {
+        width: 8%;
+        margin-bottom: 16px;
+    }
+   
+    .banner p {
+        width: 100%;
+    }
+     .tools p {
+    padding-bottom: 24px;
+   
+    }
+}
+ .footer .social-icon a img {
+        margin: 0;
+    }
+ 
+
+
+
+
+
+
+@media (max-width:991px) {
+    .project .nav.nav-pills {
+        width: 100%;
+    }
+    nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+       
+        font-size: 14px;
+    }
+ 
+    .project p {
+        width: 100%;
+    }
+
+    .contact h2 {
+	font-size: 24px;
+}
+    .project h5 {
+    margin-bottom:16px;
+    font-size: 20px;
+    
+}
+     .books-slider {
+        width: 100%;
+    }
+    .contact {
+        margin-top: 24px;
+         width: 100%;
+         
+    }
+  .contact img {
+        width: 60%;
+    }
+    
+    .books-slider .item img {
+        width: 55%;
+        margin: 0 auto 16px auto;
+    }
+    .books-bx h2{
+        font-size: 32px;
+        padding-top: 16px;
+    }
+     
+    .project h1 {
+    font-size: 32px;
+   padding-bottom:24px;
+   margin-top: 32px;
+       
+}
+    .banner h1 {
+        font-size: 32px;
+    }
+    
+    .contact h2 {
+    font-size: 32px;
+       
+}
+    .banner .taglin {
+        font-size: 14px;
+    }
+     nav.navbar a.navbar-brand {
+        width: 8%;
+        margin-bottom: 16px;
+    }
+    .footer {
+        padding: 0 0 24px 0;
+    }
+     .tools p {
+    padding-bottom: 16px;
+   
+    }
+}
+ 
+
+ .footer .social-icon a img {
+        margin: 0;
+    }
+
+
+
+    @media (max-width: 768px) {
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .values-headline {
+    font-size: 28px;
+  }
+}
+
+@media (max-width:767px) {
+    div#navbarNav {
+        position: absolute;
+        top:0;
+        background:#121212;
+        padding-left: 16px;
+        padding-right: 16px;
+        transition: 0.3s ease-in-out;
+    }
+    nav.navbar a.navbar-brand {
+        width: 12%;
+    }
+    .banner {
+        background-position: left;
+        padding: 100px 0 50px 0;
+    }
+
+    .banner img{
+        width: 80%;
+        margin-left: 16px;
+       
+    }
+
+    .banner h2 {
+        font-size: 16px;
+        max-width: 400px;
+        margin-left: 16px;
+        
+         
+    }
+    .banner button {
+        margin-left: 16px;
+    }
+   .proj-recent {
+ margin-top:64px;
+
+}
+  .proj-recent h1 {
+font-size: 32px;
+
+}
+
+.values-subtitle{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.values.block{
+    margin-left: 16px;
+}
+    
+    .contact img {
+        width: 80%;
+
+    }
+
+    .newsletter-bx {
+        border-radius: 35px;
+        padding: 35px 14px;
+        margin-bottom: 50px;
+        margin-top: -85px;
+    }
+    .banner button {
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+    
+     
+.values-prop h1 {
+    margin-top: 32px;
+    font-size: 32px;
+    font-family: Orbitron;
+	font-weight: 700;
+    text-align: center; 
+} 
+.values-subtitle {
+  padding-bottom: 24px;
+}
+
+ 
+    .newsletter-bx h3 {
+        font-size: 20px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .footer img {
+        width: 40%;
+        margin: 0 auto 25px auto;
+        display: block;
+    }
+    .footer .social-icon a img {
+        margin: 0;
+    }
+    
+    nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+        padding: 32px 16px;
+        font-size: 16px;
+        border-bottom: 1px solid rgb(255 255 255 / 20%);
+    }
+    span.navbar-text {
+        flex-wrap: wrap;
+    }
+    span.navbar-text .social-icon {
+        display: block;
+        margin-left: 0;
+        padding: 8px 16px;
+        border-bottom: 1px solid rgb(255 255 255 / 20%);
+        width: 100%;
+    }
+    .navbar-text button {
+        padding: 16px 32px;
+        font-size: 16px;
+        margin: 16px 0 8px 16px;
+        overflow: hidden;
+    }
+    .navbar-text button::before {
+        width: 100%;
+        left: -200px;
+        z-index: 0;
+    }
+    .navbar-text button:hover::before {
+        width: 100%;
+        left: 0;
+    }
+    .navbar-text button span {
+        z-index: 1;
+        position: relative;
+    }
+    
+    .project .nav.nav-pills {
+        width: 100%;
+        border-radius: 0;
+    }
+    .project .nav.nav-pills li.nav-item {
+        width: 100%;
+    }
+    
+    button#pills-contact-tab {
+        /* border: 0px solid rgba(255, 255, 255, 0.5); */
+        border-radius: 0;
+    }
+    button#pills-home-tab {
+        /* border: 0px solid rgba(255, 255, 255, 0.5); */
+        border-radius: 0;
+    }
+    button#pills-profile-tab {
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+        border-top: 0px solid rgba(255, 255, 255, 0.5);
+        border-bottom: 0px solid rgba(255, 255, 255, 0.5);
+    }
+}
