@@ -1,9 +1,7 @@
 @media (max-width:1700px) {
      nav.navbar ul.navbar-nav li.nav-item a.nav-link {
         font-size: 16px;
-        padding-left: 24px;
-        padding-right: 24px;
-        padding-top: 16px;
+        padding: 16px,16px;
     }
 
  
@@ -30,7 +28,7 @@
     }
  
     .banner p, .skill p, .project p {
-        font-size: 15px;
+        font-size: 16px;
     }
     .banner .taglin {
         font-size: 12px;
@@ -90,11 +88,10 @@
 
 @media (max-width:1368px) {
     nav.navbar {
-        padding: 16px 0;
+        padding: 16px,8;
     }
      nav.navbar ul.navbar-nav li.nav-item a.nav-link {
-        margin-right: 16px;
-        padding-bottom: 16px;
+        padding: 16px,16px;
         font-size: 14px;
     }
       nav.navbar a.navbar-brand {
@@ -147,8 +144,7 @@
         padding: 152px 0 52px 0;
     }
      nav.navbar ul.navbar-nav li.nav-item a.nav-link {
-        margin-right: 16px;
-        padding-bottom: 4px;
+        padding: 16px,16px;
         font-size: 14px;
     }
     
@@ -233,7 +229,6 @@ nav.navbar.scrolled {
     }
      nav.navbar a.navbar-brand {
         width: 8%;
-        margin-bottom: 16px;
     }
    
     .banner p {
@@ -259,14 +254,23 @@ nav.navbar.scrolled {
         width: 100%;
     }
     nav.navbar ul.navbar-nav li.nav-item a.nav-link {
-       
+        padding: 16px,16px;
         font-size: 14px;
     }
  
+    .nav-item {
+    padding-right: 16px;
+}
     .project p {
         width: 100%;
     }
 
+    
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat( 1fr);
+  gap: 24px;
+}
     .contact h2 {
 	font-size: 24px;
 }
@@ -315,7 +319,6 @@ nav.navbar.scrolled {
     }
      nav.navbar a.navbar-brand {
         width: 8%;
-        margin-bottom: 16px;
     }
     .footer {
         padding: 0 0 24px 0;
@@ -340,7 +343,7 @@ nav.navbar.scrolled {
   }
 
   .values-headline {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 
@@ -349,16 +352,14 @@ nav.navbar.scrolled {
         position: relative;
         top:0;
         background:#121212;
-        padding-left: 24x;
-        padding-right: 24x;
-        padding-top: 24px;
+         padding: 16px,16px;
         transition: 0.3s ease-in-out;
     }
     nav.navbar a.navbar-brand {
         width: 12%;
     }
     .banner {
-        background-position: left;
+        background-position: center;
         padding: 100px 0 50px 0;
     }
 
@@ -372,9 +373,16 @@ nav.navbar.scrolled {
         font-size: 16px;
         max-width: 400px;
         margin-left: 16px;
-        
-         
+             
     }
+    
+.banner p {
+        font-size: 14px;
+        max-width: 400px;
+        margin-left: 16px;
+             
+    }
+
     .banner button {
         margin-left: 16px;
     }
